@@ -1,0 +1,88 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  max-width: 600px;
+  background-color: #f1f8fc; /* Soft light blue background */
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 15px;
+}
+
+h1 {
+  color: #34495e; /* Dark grayish blue */
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+button {
+  background-color: #56ccf2; /* Light cyan blue */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5d9eff; /* Slightly darker cyan blue on hover */
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f7f8fa; /* Light pastel background */
+  font-size: 1rem;
+  color: #555;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+div {
+  margin-top: 30px;
+}
+
+div > div {
+  padding: 20px;
+  background-color: #e8f5fd; /* Light pastel blue */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+div > div h3 {
+  margin: 0;
+  color: #2c3e50; /* Slightly dark text for headings */
+  font-size: 1.6rem;
+}
+
+div > div p {
+  color: #7f8c8d; /* Medium gray */
+  font-size: 1.1rem;
+}
+
+body {
+  background-color: #f4f8fb; /* Soft pastel background */
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.myButtonClass {
+  background-color: rgb(255, 48, 48);
+}
